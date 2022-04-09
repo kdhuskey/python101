@@ -8,18 +8,12 @@ def divide(a, b):
     print(a/b)
 
 
-# Write a function that accepts two parameters: number of guests, number of pancakes per guest.  
-# The calculation for the total number of pancakes should be 12% higher than the number of guests multiplied by the number of pancakes per guest, 
-# rounded up to the nearest whole number. Print the result to the console.
-
-# Call your function to make sure it is working correctly. For example, 10 guests with 3 pancakes each = 34 pancakes total
 
 def pancake_cal(number_guest, pancakes_per_g):
     total_pan_needed = round(number_guest * pancakes_per_g * .12)
     print(number_guest * pancakes_per_g + total_pan_needed)
 pancake_cal(10, 3)
 pancake_cal(5, 3)
-
 
 
 def fahrenheit_to_celsius(f_temp):
@@ -41,5 +35,5 @@ fuel_price(1.93, 1.45)
 def calculate_equity(years_worked, company_valuation):
     employee_earns = 2500
     company_shares = 10000000
-    print(company_shares / employee_earns)
+    print((employee_earns * years_worked) / ())
 calculate_equity(10, 5) 
