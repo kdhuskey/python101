@@ -7,7 +7,7 @@ def tip_calculator(bill_total, tip_percentage):
     print(f'Your bill total is: ${percentage_plus(bill_total, tip_percentage)}') 
 
 bill_total = int(input('How much was the bill?: '))
-tip_percentage = int(input('What percent would you like to tip?: '))   
+tip_percentage = int(input('What percent would you like to tip?: ')) 
     
 
 

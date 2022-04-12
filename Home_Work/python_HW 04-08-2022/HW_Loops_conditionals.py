@@ -3,7 +3,7 @@ import random
 def coin_flip():
     flip = random.randint(0,1)
     if flip == 0:
-        print("""YOu flipped a coin!
+        print("""You flipped a coin!
         It is heads!""")
     else:
         print("""You flipped a coin!
