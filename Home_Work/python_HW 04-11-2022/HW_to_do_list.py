@@ -22,7 +22,7 @@ Press 4 to quit
                 del to_do_list[i]
     elif user_input == 3:
         for task in to_do_list:
-            print(task)
+            print("Task: " + task['Task'] + " " + "Priority: " + task['Priority'])
     else:
         print('Does not sound like any fun')
 
